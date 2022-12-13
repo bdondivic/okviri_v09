@@ -1,0 +1,9 @@
+POST http://localhost:3001/api/poruke
+content-type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3RVc2VyIiwiaWQiOiI2Mzk4MmMzMDQ3NjM0NzNiYTk0Mjc1NjIiLCJpYXQiOjE2NzA5MjAyOTB9.jpv7nM8w52HVbJFkaJBPw8PBAZUS4iYSnniG-e6UUYs
+
+{
+  "sadrzaj": "Poruka sa korisnikom token",
+  "vazno": true
+  //"korisnikId": "61af67771c81f205ff3d699b"
+}
